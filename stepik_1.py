@@ -1557,20 +1557,38 @@ cars = [
     {"brand": "Hyuinday", "model": "Accent", "year": 2017, "max_speed": 240, "price": 1698913}
 ]
 
+
+# пример выборки всех машинавтопарка с использованием разделителя
+# for car in cars:
+#     print(car['brand'], car['model'], car['year'], car['max_speed'], "Ориентировочная стоимость:", car['price'], sep='-')
+
+
+
+# пример выборки всех машинавтопарка с использованием разделителя
+# for i in range (len(cars)):
+#     print(cars[i]['brand'], cars[i]['model'], sep='*')
+
+
+
+# с использованием разделителей пример
+# for i in range(len(cars)):
+#     if cars[i]['max_speed'] == 240:
+#         print("Бренд:", cars[i]['brand'], "Модель:", cars[i] ['model'], "Год выпуска:", cars[i] ['year'], sep='***')
+
 # for car in cars:
 #     print(f"Бренд: {car['brand']}, Модель: {car['model']}, Год выпуска: {car['year']}, Максимальная скорость: {car['max_speed']}, Средняя стоимость: {car['price']} грн.")
 #
 # for car in cars:
 #     print(f"Бренд: {car['brand']}, Модель: {car['model']}, Год выпуска: {car['year']}")
 #
-for car in cars:
-    if car["max_speed"] > 240:
-        print(f"Бренд: {car['brand']}, Модель: {car['model']}, Год выпуска: {car['year']}")
-
-
-for i in range(len(cars)):
-    if cars[i] ['max_speed'] > 200 and cars[i] ['brand'] == "BMW":
-        print(f"Бренд: {cars[i] ['brand']}, Модель: {cars[i]['model']}")
+# for car in cars:
+#     if car["max_speed"] > 240:
+#         print(f"Бренд: {car['brand']}, Модель: {car['model']}, Год выпуска: {car['year']}")
+#
+#
+# for i in range(len(cars)):
+#     if cars[i] ['max_speed'] > 200 and cars[i] ['brand'] == "BMW":
+#         print(f"Бренд: {cars[i] ['brand']}, Модель: {cars[i]['model']}")
 
 # for car in cars:
 #     if car["year"] > 2019:
@@ -1579,8 +1597,8 @@ for i in range(len(cars)):
 # for car in cars:
 #     print(f"{car['brand']}, Модель: {car['model']}, Год выпуска: {car['year']}")
 
-for i in range(len(cars)):
-    print(f"{cars[i]['brand']}, Модель: {cars[i]['model']}, Год выпуска: {cars[i]['year']}")
+# for i in range(len(cars)):
+#     print(f"{cars[i]['brand']}, Модель: {cars[i]['model']}, Год выпуска: {cars[i]['year']}")
 
 
 
