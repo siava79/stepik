@@ -1600,6 +1600,9 @@ cars = [
 # for i in range(len(cars)):
 #     print(f"{cars[i]['brand']}, Модель: {cars[i]['model']}, Год выпуска: {cars[i]['year']}")
 
+# for i in range(len(cars)):
+#     print(f"{cars[i]['brand']}, Модель: {cars[i]['model']}, Год выпуска: {cars[i]['year']}")
+
 
 
 
